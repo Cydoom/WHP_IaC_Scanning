@@ -31,5 +31,5 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          directory: IaC\terraform\storage
+          directory: IaC/terraform/storage
           framework: terraform
